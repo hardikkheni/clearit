@@ -1,0 +1,35 @@
+//  ================================================================================================
+//  ? TIP:  It is recommended to use this file for overriding bootstrap variables.
+//  ================================================================================================
+$success: #2ba58e;
+
+$gray: #eeeeee;
+
+$white: #ffffff;
+
+$orange: #ff6600;
+
+$teal: #45778a;
+$cyan: #0fa68b;
+
+$yellow: #ffe814;
+
+$pink: #ffcccc;
+
+$dark: #706875;
+
+$perple: #654161;
+
+// this make teal color as parimary color in whole website
+$primary: $success;
+
+$blue: #23638f;
+
+$theme-colors: (
+  'blue': $blue,
+);
+
+$font-family-sans-serif: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue,
+  sans-serif;
+$font-family-monospace: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue,
+  sans-serif;

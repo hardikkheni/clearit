@@ -1,0 +1,1 @@
+Payment of ${{ number_format($amount, 2) }} is declined for user {{ $login }} and ticket [{{ $ticketNumber }}]

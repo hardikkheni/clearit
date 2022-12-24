@@ -1,0 +1,21 @@
+@import '~@core/scss/base/bootstrap-extended/include'; // Bootstrap includes
+
+.ticket-collapse,
+.ticket-collapse-card {
+  .outline-secondary {
+    .card-header {
+      border: unset;
+      background-color: rgba($primary, 0.2);
+    }
+    .card-header,
+    .card-title {
+      .btn-outline-success {
+        background-color: $white;
+        &:hover {
+          color: $white;
+          background-color: rgba($primary, 1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Ticket {{ $ticketNumber }} is paid on {{ $paidDate }} by user {{ $name }} with email {{ $email }}

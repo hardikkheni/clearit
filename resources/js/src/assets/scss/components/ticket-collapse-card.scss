@@ -1,0 +1,23 @@
+@import '~@core/scss/base/bootstrap-extended/include'; // Bootstrap includes
+
+.ticket-collapse-card {
+  .card {
+    .card-title {
+      margin-bottom: 0;
+      margin-top: 0.5rem;
+      color: $primary;
+    }
+    &.border-info {
+      border: 1px solid $info !important;
+      hr {
+        border-bottom: 1px solid $dark;
+      }
+    }
+    &.border-primary {
+      border: 1px solid $primary !important;
+      hr {
+        border-bottom: 1px solid $dark;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/usclearit/public_html
+    - cp -R * $DEPLOYPATH
+    - cd $DEPLOYPATH && composer install
+    - cd $DEPLOYPATH && yarn
+    - cd $DEPLOYPATH && yarn prod
